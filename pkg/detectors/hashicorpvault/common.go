@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 type LookupResponse struct {

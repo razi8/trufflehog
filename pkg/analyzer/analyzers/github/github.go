@@ -9,12 +9,12 @@ import (
 	gh "github.com/google/go-github/v67/github"
 	"golang.org/x/time/rate"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers/github/classic"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers/github/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers/github/finegrained"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/config"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers/github/classic"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers/github/common"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers/github/finegrained"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/config"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 // According to GitHub's rate limiting documentation, the default rate limit for

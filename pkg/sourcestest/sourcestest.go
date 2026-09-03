@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 type reporter interface {

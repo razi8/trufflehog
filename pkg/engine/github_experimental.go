@@ -8,12 +8,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources/git"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources/github"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources/github_experimental"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources/git"
+	"github.com/razi8/trufflehog/v3/pkg/sources/github"
+	"github.com/razi8/trufflehog/v3/pkg/sources/github_experimental"
 )
 
 // ScanGitHubExperimental scans GitHub using an experimental feature. Consider all functionality to be in an alpha release here.

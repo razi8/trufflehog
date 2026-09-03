@@ -7,12 +7,12 @@ import (
 	regexp "github.com/wasilibs/go-re2"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
 
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 type Scanner struct {

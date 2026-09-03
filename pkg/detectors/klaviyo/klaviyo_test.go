@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/engine/ahocorasick"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/engine/ahocorasick"
 )
 
 // KlaviyoPatternSuite drives keyPat through the engine's real path (keyword

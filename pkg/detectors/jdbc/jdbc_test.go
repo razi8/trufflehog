@@ -9,9 +9,9 @@ import (
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/engine/ahocorasick"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/engine/ahocorasick"
 )
 
 func TestJdbc_Pattern(t *testing.T) {

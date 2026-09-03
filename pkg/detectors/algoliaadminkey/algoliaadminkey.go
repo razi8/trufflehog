@@ -12,11 +12,11 @@ import (
 
 	regexp "github.com/wasilibs/go-re2"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/cache/simple"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/cache/simple"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 type Scanner struct {

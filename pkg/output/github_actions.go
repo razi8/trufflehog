@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detectorspb"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detectorspb"
 )
 
 var dedupeCache = make(map[string]struct{})

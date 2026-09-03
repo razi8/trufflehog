@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-retryablehttp"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
 )
 
 var caCerts = []string{

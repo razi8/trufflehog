@@ -17,9 +17,9 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 func TestMain(m *testing.M) {

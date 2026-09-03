@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 var endpoints = map[string]string{

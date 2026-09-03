@@ -13,9 +13,9 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 const secretPart1 string = "SECRET"

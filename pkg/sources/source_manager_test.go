@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
 )
 
 // DummySource implements Source and is used for testing a SourceManager.

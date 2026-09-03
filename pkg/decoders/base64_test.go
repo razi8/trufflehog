@@ -5,8 +5,8 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 func TestBase64_FromChunk(t *testing.T) {

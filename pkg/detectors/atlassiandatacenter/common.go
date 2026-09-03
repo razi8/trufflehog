@@ -12,7 +12,7 @@ import (
 
 	regexp "github.com/wasilibs/go-re2"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
 )
 
 // GetDCTokenPat returns a compiled regex that matches Atlassian Data Center PATs

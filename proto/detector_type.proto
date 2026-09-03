@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package detector_type;
 
-option go_package = "github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb";
+option go_package = "github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb";
 
 enum DetectorType {
   Alibaba = 0;

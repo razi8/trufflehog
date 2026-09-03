@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/testcontainers/testcontainers-go/modules/mysql"
 
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func TestMySQL(t *testing.T) {

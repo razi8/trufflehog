@@ -6,7 +6,7 @@ import (
 
 	"github.com/kylelemons/godebug/pretty"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 func TestUTF8_FromChunk_ValidUTF8(t *testing.T) {

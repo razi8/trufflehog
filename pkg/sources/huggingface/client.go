@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 // Maps for API and HTML paths

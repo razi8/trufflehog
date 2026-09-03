@@ -11,7 +11,7 @@ import (
 
 	"github.com/mitchellh/go-ps"
 
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 const (

@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/cache/simple"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/cache/simple"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // This is meant to track APIUnitReporter.UnitOK in scanner/cmd/scanner/pipeline.go

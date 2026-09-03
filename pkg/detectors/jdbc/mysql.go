@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
 
 	"github.com/go-sql-driver/mysql"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 const SourceUnitKindBucket sources.SourceUnitKind = "bucket"

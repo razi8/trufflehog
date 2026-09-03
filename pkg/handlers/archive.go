@@ -8,9 +8,9 @@ import (
 
 	"github.com/mholt/archives"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
 )
 
 type ctxKey int

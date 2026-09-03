@@ -12,12 +12,12 @@ import (
 	gogit "github.com/go-git/go-git/v5"
 	"github.com/google/go-github/v67/github"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/giturl"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
-	sourcegit "github.com/trufflesecurity/trufflehog/v3/pkg/sources/git"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/giturl"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
+	sourcegit "github.com/razi8/trufflehog/v3/pkg/sources/git"
 )
 
 // repoInfoCache is a thread-safe cache to store information about repositories.

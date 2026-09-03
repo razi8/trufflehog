@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/common"
 
 	"golang.org/x/time/rate"
 )

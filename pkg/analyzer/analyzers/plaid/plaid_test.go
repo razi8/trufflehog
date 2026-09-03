@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/config"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/config"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 //go:embed expected_output.json

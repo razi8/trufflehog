@@ -26,12 +26,12 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"gopkg.in/h2non/gock.v1"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/cache/simple"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/credentialspb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/cache/simple"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/credentialspb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 func createPrivateKey() string {

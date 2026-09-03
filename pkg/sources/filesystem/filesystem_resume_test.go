@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	trContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	trContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // TestResumptionInChunksAfterRestart guards against a regression where a

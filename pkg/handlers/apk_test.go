@@ -10,7 +10,7 @@ import (
 	"github.com/avast/apkparser"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func TestAPKHandler(t *testing.T) {

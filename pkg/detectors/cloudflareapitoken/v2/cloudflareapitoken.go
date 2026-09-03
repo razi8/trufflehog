@@ -6,10 +6,10 @@ import (
 
 	regexp "github.com/wasilibs/go-re2"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	cfapitoken "github.com/trufflesecurity/trufflehog/v3/pkg/detectors/cloudflareapitoken"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	cfapitoken "github.com/razi8/trufflehog/v3/pkg/detectors/cloudflareapitoken"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 type Scanner struct {

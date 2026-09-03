@@ -12,15 +12,15 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/log"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/log"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
 	"github.com/go-errors/errors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 
 	"github.com/repeale/fp-go"
 )

@@ -15,9 +15,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/sergi/go-diff/diffmatchpatch"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
 )
 
 // LegacyJSONPrinter is a printer that prints results in legacy JSON format for backwards compatibility.

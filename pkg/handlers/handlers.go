@@ -12,11 +12,11 @@ import (
 	"github.com/mholt/archives"
 	"google.golang.org/protobuf/proto"
 
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/iobuf"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/iobuf"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // fileReader is a custom reader that wraps an io.Reader and provides additional functionality for identifying

@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	trContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	trContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
 )
 
 const (

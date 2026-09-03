@@ -11,7 +11,7 @@ import (
 	"github.com/brianvoe/gofakeit/v7"
 	"github.com/stretchr/testify/assert"
 	"github.com/testcontainers/testcontainers-go/modules/mssql"
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func TestSqlServer(t *testing.T) {

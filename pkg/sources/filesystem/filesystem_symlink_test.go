@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	trContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sourcestest"
+	trContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sourcestest"
 )
 
 func probeSymlinkSupport(t *testing.T, baseDir string) {

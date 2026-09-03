@@ -7,10 +7,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	gh "github.com/google/go-github/v67/github"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
-	githubcommon "github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers/github/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
+	githubcommon "github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers/github/common"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func strPtr(s string) *string { return &s }

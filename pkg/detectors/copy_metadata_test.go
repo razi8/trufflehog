@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 func TestCopyMetadata_ChunkDataFromOriginalData(t *testing.T) {

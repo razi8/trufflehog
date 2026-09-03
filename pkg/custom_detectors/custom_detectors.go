@@ -14,10 +14,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/custom_detectorspb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/custom_detectorspb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 // The maximum number of matches from one chunk. This const is used when

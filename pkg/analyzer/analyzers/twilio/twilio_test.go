@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func TestAnalyzer_Analyze(t *testing.T) {

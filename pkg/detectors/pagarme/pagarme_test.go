@@ -3,8 +3,8 @@ package pagarme
 import (
 	"context"
 	"github.com/google/go-cmp/cmp"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/engine/ahocorasick"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/engine/ahocorasick"
 	"testing"
 )
 

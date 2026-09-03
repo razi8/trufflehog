@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 
 	regexp "github.com/wasilibs/go-re2"
 	"go.mongodb.org/mongo-driver/mongo"

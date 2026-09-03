@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 var subRe = regexp.MustCompile(`\{\{[^{}]+\}\}`)

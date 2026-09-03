@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detectorspb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/source_metadatapb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/sourcespb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detectorspb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/source_metadatapb"
+	"github.com/razi8/trufflehog/v3/pkg/pb/sourcespb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // JSONPrinter is a printer that prints results in JSON format.

@@ -15,8 +15,8 @@ import (
 	"github.com/go-errors/errors"
 	"github.com/jpillora/overseer/fetcher"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/version"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/version"
 )
 
 func Fetcher(cmd string, tui bool) fetcher.Interface {

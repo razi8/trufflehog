@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
 )
 
 const (

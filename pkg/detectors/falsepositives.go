@@ -9,7 +9,7 @@ import (
 
 	ahocorasick "github.com/BobuSumisu/aho-corasick"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 var (

@@ -14,10 +14,10 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	bufferwriter "github.com/trufflesecurity/trufflehog/v3/pkg/writers/buffer_writer"
-	bufferedfilewriter "github.com/trufflesecurity/trufflehog/v3/pkg/writers/buffered_file_writer"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	bufferwriter "github.com/razi8/trufflehog/v3/pkg/writers/buffer_writer"
+	bufferedfilewriter "github.com/razi8/trufflehog/v3/pkg/writers/buffered_file_writer"
 )
 
 const (

@@ -1,13 +1,8 @@
-module github.com/trufflesecurity/trufflehog/v3
+module github.com/razi8/trufflehog/v3
 
 go 1.25.0
 
 toolchain go1.25.10
-
-replace github.com/jpillora/overseer => github.com/trufflesecurity/overseer v1.2.8
-
-// Coinbase archived this library and it has some vulnerable dependencies so we've forked.
-replace github.com/coinbase/waas-client-library-go => github.com/trufflesecurity/waas-client-library-go v1.0.9
 
 require (
 	cloud.google.com/go/secretmanager v1.16.0
@@ -140,6 +135,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/ProtonMail/go-crypto v1.1.6 // indirect
 	github.com/STARRY-S/zip v0.2.1 // indirect
+	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/alecthomas/chroma/v2 v2.14.0 // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
@@ -207,7 +203,6 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
-	github.com/gofrs/flock v0.12.1 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
@@ -288,7 +283,6 @@ require (
 	github.com/therootcompany/xz v1.0.1 // indirect
 	github.com/tklauser/go-sysconf v0.4.0 // indirect
 	github.com/tklauser/numcpus v0.12.0 // indirect
-	github.com/trufflesecurity/touchfile v0.1.1 // indirect
 	github.com/ulikunitz/xz v0.5.15 // indirect
 	github.com/vbatts/tar-split v0.12.1 // indirect
 	github.com/wasilibs/wazero-helpers v0.0.0-20240620070341-3dff1577cd52 // indirect

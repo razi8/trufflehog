@@ -6,8 +6,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 // Channel and worker pool label values exposed by runtimeCollector. These

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/buffers/buffer"
+	"github.com/razi8/trufflehog/v3/pkg/buffers/buffer"
 )
 
 type poolMetrics struct{}

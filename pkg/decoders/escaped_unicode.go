@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detectorspb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detectorspb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 type EscapedUnicode struct{}

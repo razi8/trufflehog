@@ -3,7 +3,7 @@ package jenkins
 import (
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 const SourceUnitKindJob sources.SourceUnitKind = "job"

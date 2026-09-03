@@ -8,9 +8,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	logContext "github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	logContext "github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // defaultHandler is a handler for non-archive files.

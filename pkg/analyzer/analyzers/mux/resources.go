@@ -1,6 +1,6 @@
 package mux
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
+import "github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
 
 var muxResourcesMap map[ResourceType][]string
 

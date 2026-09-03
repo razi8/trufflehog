@@ -4,7 +4,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/muesli/reflow/truncate"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/common"
+	"github.com/razi8/trufflehog/v3/pkg/tui/common"
 )
 
 // StatusBarMsg is a message sent to the status bar.

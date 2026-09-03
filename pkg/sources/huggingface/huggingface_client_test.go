@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/h2non/gock.v1"

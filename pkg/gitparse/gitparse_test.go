@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/process"
-	bufferwriter "github.com/trufflesecurity/trufflehog/v3/pkg/writers/buffer_writer"
-	bufferedfilewriter "github.com/trufflesecurity/trufflehog/v3/pkg/writers/buffered_file_writer"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/process"
+	bufferwriter "github.com/razi8/trufflehog/v3/pkg/writers/buffer_writer"
+	bufferedfilewriter "github.com/razi8/trufflehog/v3/pkg/writers/buffered_file_writer"
 )
 
 type testCaseLine struct {

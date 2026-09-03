@@ -9,9 +9,9 @@ import (
 	"net/http"
 
 	"github.com/fatih/color"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/config"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/config"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 type Analyzer struct {

@@ -3,8 +3,8 @@ package git
 import (
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/components/textinputs"
+	"github.com/razi8/trufflehog/v3/pkg/tui/common"
+	"github.com/razi8/trufflehog/v3/pkg/tui/components/textinputs"
 )
 
 type gitCmdModel struct {

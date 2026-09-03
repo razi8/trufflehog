@@ -15,8 +15,8 @@ import (
 	regexp "github.com/wasilibs/go-re2"
 	"golang.org/x/oauth2/google"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 )
 
 type Scanner struct{}

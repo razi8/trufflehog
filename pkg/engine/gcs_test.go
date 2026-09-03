@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/decoders"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/engine/defaults"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/decoders"
+	"github.com/razi8/trufflehog/v3/pkg/engine/defaults"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 func TestScanGCS(t *testing.T) {

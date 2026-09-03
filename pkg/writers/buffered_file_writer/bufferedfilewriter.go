@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/buffers/buffer"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/buffers/pool"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/cleantemp"
+	"github.com/razi8/trufflehog/v3/pkg/buffers/buffer"
+	"github.com/razi8/trufflehog/v3/pkg/buffers/pool"
+	"github.com/razi8/trufflehog/v3/pkg/cleantemp"
 )
 
 type bufferedFileWriterMetrics struct{}

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detector_typepb"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detector_typepb"
 	regexp "github.com/wasilibs/go-re2"
 )
 

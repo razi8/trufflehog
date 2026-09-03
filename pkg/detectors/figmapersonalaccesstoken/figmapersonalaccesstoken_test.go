@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/common"
 )
 
 func TestVerifyMatch(t *testing.T) {

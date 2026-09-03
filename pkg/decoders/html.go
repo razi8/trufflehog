@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/pb/detectorspb"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/pb/detectorspb"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // HTML is a decoder that extracts textual content from HTML documents.

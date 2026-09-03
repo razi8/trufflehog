@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/common"
+	"github.com/razi8/trufflehog/v3/pkg/tui/common"
 )
 
 // Header represents a header component.

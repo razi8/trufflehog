@@ -18,7 +18,7 @@ func TestCheckPackageDir(t *testing.T) {
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func FromData() detectors.Result {
 	return detectors.Result{
@@ -35,7 +35,7 @@ func FromData() detectors.Result {
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func FromData() detectors.Result {
 	return detectors.Result{
@@ -53,7 +53,7 @@ func FromData() detectors.Result {
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func FromData() detectors.Result {
 	r := detectors.Result{
@@ -82,7 +82,7 @@ func Helper() string { return "" }
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func FromData() detectors.Result {
 	return detectors.Result{
@@ -96,7 +96,7 @@ func FromData() detectors.Result {
 import (
 	"testing"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+	"github.com/razi8/trufflehog/v3/pkg/detectors"
 )
 
 func TestZeroSecretParts(t *testing.T) {
@@ -113,7 +113,7 @@ func TestZeroSecretParts(t *testing.T) {
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func FromData() *detectors.Result {
 	return &detectors.Result{
@@ -130,7 +130,7 @@ func FromData() *detectors.Result {
 			files: map[string]string{
 				"det.go": `package det
 
-import "github.com/trufflesecurity/trufflehog/v3/pkg/detectors"
+import "github.com/razi8/trufflehog/v3/pkg/detectors"
 
 func One() detectors.Result { return detectors.Result{Raw: []byte("a")} }
 func Two() detectors.Result { return detectors.Result{Raw: []byte("b")} }

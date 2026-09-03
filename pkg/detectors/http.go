@@ -14,8 +14,8 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/feature"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/feature"
 )
 
 var DetectorHttpClientWithNoLocalAddresses *http.Client

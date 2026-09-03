@@ -3,7 +3,7 @@ package decoders
 import (
 	"testing"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources"
+	"github.com/razi8/trufflehog/v3/pkg/sources"
 )
 
 // Benchmark data for testing

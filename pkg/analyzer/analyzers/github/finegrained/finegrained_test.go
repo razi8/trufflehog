@@ -6,11 +6,11 @@ import (
 
 	gh "github.com/google/go-github/v67/github"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
-	analyzerCommon "github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers/github/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/config"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
+	analyzerCommon "github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers/github/common"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/config"
+	"github.com/razi8/trufflehog/v3/pkg/common"
+	"github.com/razi8/trufflehog/v3/pkg/context"
 )
 
 func TestAnalyzer_Analyze(t *testing.T) {

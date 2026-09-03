@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/context"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/sources/git"
+	"github.com/razi8/trufflehog/v3/pkg/context"
+	"github.com/razi8/trufflehog/v3/pkg/sources/git"
 )
 
 func Test_setProgressCompleteWithRepo_resumeInfo(t *testing.T) {

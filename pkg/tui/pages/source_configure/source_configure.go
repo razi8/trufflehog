@@ -4,10 +4,10 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/components/tabs"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/components/textinputs"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/sources"
+	"github.com/razi8/trufflehog/v3/pkg/tui/common"
+	"github.com/razi8/trufflehog/v3/pkg/tui/components/tabs"
+	"github.com/razi8/trufflehog/v3/pkg/tui/components/textinputs"
+	"github.com/razi8/trufflehog/v3/pkg/tui/sources"
 )
 
 type SetSourceMsg struct {

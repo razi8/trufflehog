@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/config"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/config"
 	"golang.org/x/time/rate"
 )
 

@@ -6,9 +6,9 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/common"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/components/selector"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/tui/styles"
+	"github.com/razi8/trufflehog/v3/pkg/tui/common"
+	"github.com/razi8/trufflehog/v3/pkg/tui/components/selector"
+	"github.com/razi8/trufflehog/v3/pkg/tui/styles"
 )
 
 const (

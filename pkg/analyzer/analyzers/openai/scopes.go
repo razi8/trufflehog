@@ -1,7 +1,7 @@
 package openai
 
 import (
-	"github.com/trufflesecurity/trufflehog/v3/pkg/analyzer/analyzers"
+	"github.com/razi8/trufflehog/v3/pkg/analyzer/analyzers"
 )
 
 type OpenAIScope struct {
