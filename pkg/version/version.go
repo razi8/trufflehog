@@ -1,3 +1,3 @@
 package version
 
-var BuildVersion = "v3.97.3-razi8.1"
+var BuildVersion = "v3.100.0"
